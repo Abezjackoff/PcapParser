@@ -1,5 +1,5 @@
 #ifndef LOGGING_H
-#define LOGGIN_H
+#define LOGGING_H
 
 #include <string>
 #include <iostream>

@@ -33,7 +33,7 @@ private:
 
 
     char hdrBuffer[16] {};
-    char msgBuffer[100] {};
+    char msgBuffer[UINT16_MAX] {};
     UdpHeader udpHeaderNow;
     MarketDataHeader mdHeader;
     IncrementalHeader incHeader;
